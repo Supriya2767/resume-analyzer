@@ -8,7 +8,7 @@
 
 import { useState, useRef } from "react";
 
-const API = "http://localhost:8000";
+const API = "https://resume-analyzer-k0ka.onrender.com";
 
 export default function UploadResume({ onDone }) {
   const [file, setFile]         = useState(null);    // Selected PDF
