@@ -36,15 +36,13 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-    "http://localhost:5173",
-    "http://localhost:3000",
-    "https://resume-analyzer-fmnyrvwsg-supriyas-projects-acce2bc7.vercel.app"
+        "https://resume-analyzer-phi-gilt-42.vercel.app"
     ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
+    
 UPLOAD_DIR = "uploads"
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 
