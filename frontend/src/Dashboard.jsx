@@ -15,7 +15,7 @@ import {
   RadialBarChart, RadialBar,
 } from "recharts";
 
-const API = "http://localhost:8000";
+const API = "https://resume-analyzer-k0ka.onrender.com";
 
 // ── Small Reusable Components ──────────────────────────────────────────────
 
